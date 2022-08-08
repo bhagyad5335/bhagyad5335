@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+int t,s=0,n,r;
+clrscr();
+scanf("%d",&n);
+t=n;
+while(n!=0)
+{
+r=n%10;
+s=s+(r*r*r);
+n=n/10;
+}
+if(t==s)
+printf("ARMSTRONG NUMBER");
+else
+printf("NOT ARMSTRONG NUMBER");
+}
