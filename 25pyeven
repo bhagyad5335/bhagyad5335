@@ -1,0 +1,6 @@
+sum=0
+a = [12, 10, 50, 100, 24]
+for number in a:
+    if number%2==0:
+       sum=sum+number
+print(sum)
