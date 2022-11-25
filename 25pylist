@@ -1,0 +1,8 @@
+print('enter list of numbers')
+li=input()
+print('enter any number')
+num=input()
+if num in li:
+    print('available')
+else:    
+        print('not available')
