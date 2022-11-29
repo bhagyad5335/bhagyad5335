@@ -1,0 +1,12 @@
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+c=int(input('enter c value'))
+d=int(input('enter d value'))
+if a>b and a>c and a>d:
+    print('a is big')
+if a<b and b>c and b>d:
+    print('b is big')
+if a<c and b<c and c>d:
+    print('c is big')
+if a<d and b<d and c<d:
+    print('d is big')
