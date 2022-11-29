@@ -1,0 +1,22 @@
+empo=int(input('enter empo'))
+empname=input('enter name')
+empdesign=int(input('enter empdesign'))
+basicsal=int(input('enter sal'))
+da=int(input('enter da'))
+ta=int(input('enter ta'))
+hra=int(input('enter hra'))
+tax=int(input('enter tax'))
+netsal=(basicsal+da+ta+hra)
+if netsal>100000:
+    tax=netsal*10/100
+elif netsal>50000:
+    tax=netsal*7/100
+elif netsal>40000:
+    tax=netsal*4/100
+elif netsal>20000:
+     tax=netsal*2/100
+elif netsal<20000:
+     tax=0
+else:
+     print(tax)
+     
