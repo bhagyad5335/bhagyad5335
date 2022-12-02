@@ -1,0 +1,7 @@
+def is_vote(n):
+   if n>=18:
+      return 'Yes'
+   else:
+      return 'No'
+n=int(input())
+print(is_vote(n))
